@@ -13,3 +13,12 @@
 #display{
     width: 100%;
 }
+
+#gen{
+    background-color: red;
+}
+
+#copy{
+    background-color: royalblue;
+    float: right;
+}

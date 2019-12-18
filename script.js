@@ -1,5 +1,6 @@
 function generate(){
     let com = prompt("please enter a Number", "10");
+
 let letters = "qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM1234567890!@#$%^&*()";
 
 var pass = "";
@@ -10,6 +11,11 @@ for(var i = 0; i<=com; i++){
 
 document.getElementById("display").value=pass;
 
-document.getElementById("lastNums").innerHTML += password + "<br />"
 
+}
+
+function copypass () {
+    document.getElementById("display").select();
+    document.execCommand("copy");
+    alert("Password Copied!");
 }
