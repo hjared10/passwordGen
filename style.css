@@ -1,0 +1,15 @@
+.content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightblue;
+    padding: 20px;
+    width: 100%;
+}
+
+.navbar{
+    color: white;
+}
+
+#display{
+    width: 100%;
+}
